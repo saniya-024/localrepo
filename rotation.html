@@ -3,16 +3,27 @@
 
 <head>
     <style>
+       
         div {
             width: 150px;
             height: 150px;
             background-color: yellow;
             border: 1px solid black;
+            /* transform: rotate(20deg); */
+            /* transition: all 2s ease-in 1s; */
+            animation-name: myAnimation;
+            animation-duration: 5sec;
+        
+        }
+         @keyframes myAnimation {
+            0% { background-color: yellow;}
+            25% { background-color: red;}
         }
 
-        #myDiv {
-            transform: rotate(-20deg);
-        }
+
+        /* #myDiv { */
+        transform: rotate(-20deg);
+        /* } */
     </style>
 </head>
 
@@ -26,9 +37,9 @@
         This a normal div element.
     </div>
 
-    <div id="myDiv">
-        This div element is rotated counter-clockwise with 20 degrees.
-    </div>
+    <!-- <div id="myDiv"> -->
+    This div element is rotated counter-clockwise with 20 degrees.
+    <!-- </div> -->
 
 </body>
 
