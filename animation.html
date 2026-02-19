@@ -3,12 +3,18 @@
 
 <head>
     <style>
+        body {
+            position: relative;
+        }
+
         div {
             width: 100px;
             height: 100px;
             background-color: red;
             animation-name: myAnimation;
             animation-duration: 9s;
+            position: absolute;
+
             /* transform: rotate(20deg); */
         }
 
@@ -16,17 +22,52 @@
             0% {
                 border-radius: 0;
                 transform: scale(1) rotate(0deg);
+                left: 0px;
+                top: 0px;
+
+
             }
+
+            25% {
+                border-radius: 45;
+                tranform: scale(1) rotate(30deg);
+                left: 200px;
+                top: 0px;
+
+            }
+
+            50% {
+                border-radius: 60%;
+                transform: scale(1) rotate(60deg);
+                left: 200px;
+                top: 200px;
+
+
+            }
+
+            75% {
+                left: 200px;
+                top: 0px;
+                right: 200px;
+
+            }
+
 
             100% {
                 border-radius: 50%;
                 transform: scale(1.1) rotate(360deg);
+                left: 0px;
+                top: s0px;
+                /* right: 0px; */
+                /* bottom: 30px; */
+
+
             }
         }
 
 
 
-        /* {  */
+        /*  
         0% {
             background-color: red;
 
@@ -39,6 +80,9 @@
 
         50% {
             background-color: blue;
+        }
+        75%{
+            background-color:black;
         }
 
         100% {
