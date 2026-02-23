@@ -3,9 +3,14 @@
 
 <head>
     <style>
-        h2::after {
-            content: url("https://media.giphy.com/media/3o8doNAGKZXsrsgzW8/giphy.gif");
+        ::marker {
+            color: red;
+            font-size: 20px;
         }
+
+        /* h2::after { */
+        content: url("https://media.giphy.com/media/3o8doNAGKZXsrsgzW8/giphy.gif");
+        /* } */
 
         /* p::first-letter { 
             color: red;
@@ -22,12 +27,22 @@
 
 <body>
 
-    <h2>Using ::first-line</h2>
+    <h2>Using ::marker</h2>
+    <ol>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>soup</li>
+    </ol>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
 
-    <p class="intro">You can use the ::first-line pseudo-element to add a special effect to the first line of a text.
-        Some more text.
-        And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and
-        more, and more.</p>
+    <!-- <p class="intro">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. -->
+    Some more text.
+    And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and
+    <!-- more, and more.</p> -->
 
 </body>
 
