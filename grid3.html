@@ -8,7 +8,11 @@
     <style>
         #container {
             display: grid;
-            background-color: red;
+            background-color: blue;
+            justify-content: space-evenly;
+            grid-template-columns: auto auto auto;
+            /* grid-template-columns: minmax(180px, 1fr) 190px 150px; */
+            /* First column is at least 80px and can grow to 1fr */
         }
 
         #container div {
@@ -26,6 +30,8 @@
         <div>Item 1</div>
         <div>Item 2</div>
         <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
 
 
 
