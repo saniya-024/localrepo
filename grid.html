@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-.container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px;
-  background-color: dodgerblue;
-  padding: 5px;
-}
+  <style>
+    .container {
+      display: grid;
+      grid-template-areas: ' header header header header header'
+        'menu main main main right'
+        'menu footer footer footer footer';
+      /* grid-template-columns: auto auto auto; */
+      gap: 5px;
+      background-color: dodgerblue;
+      padding: 5px;
+    }
 
-.container div {
-  background-color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 30px;
-}
+    .container div {
+      background-color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 30px;
+    }
 
-.item1 {
-  grid-column: 1 / span 4;
-}
-</style>
+    .item1 {
+      grid-area: header;
+      justify-self: center;
+    }
+
+    .item2 {
+      grid-area: menu;
+    }
+
+    .item3 {
+      grid-area: main;
+    }
+
+    .item4 {
+      grid-area: right;
+    }
+
+    .item5 {
+      grid-area: footer;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>The grid-column Property</h1>
+  <h1>The grid-column Property</h1>
 
-<p>Let the first grid item start at column-line 1, and let it span 2 columns:</p>
+  <p>Let the first grid item start at column-line 1, and let it span 2 columns:</p>
 
-<div class="container">
-  <div class="item1">1</div>
-  <div class="item2">2</div>
-  <div class="item3">3</div>  
-  <div class="item4">4</div>
-  <div class="item5">5</div>
-</div>
+  <div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+  </div>
 
 </body>
+
 </html>
-
-
