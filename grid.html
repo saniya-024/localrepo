@@ -5,21 +5,19 @@
   <style>
     .container {
       display: grid;
-      grid-template-areas: ' header header header header header'
+
+      grid-template-areas: 'header header header header header'
         'menu main main main right'
         'menu footer footer footer footer';
       /* grid-template-columns: auto auto auto; */
-      gap: 5px;
+
+      /* gap: 5px; */
       background-color: dodgerblue;
       padding: 5px;
     }
 
-    @media screen and (min-width:500px) {
-      .container {
-        background-color: pink;
-        color: green;
-      }
-    }
+
+
 
 
 
@@ -27,36 +25,57 @@
 
     .container div {
       background-color: white;
-      text-align: center;
+      text-align: left;
       padding: 10px;
       font-size: 30px;
     }
 
     .item1 {
-      /* grid-area: header; */
-      /* align-self: stretch; */
-      order: 3;
+      grid-area: header;
+
+
     }
 
     .item2 {
-      /* grid-area: menu; */
-      order: 1;
+      grid-area: menu;
+      /* order: 1; */
     }
 
     .item3 {
-      /* grid-area: main; */
-      order: 5;
+      grid-area: main;
+      /* order: 5; */
     }
 
     .item4 {
-      /* grid-area: right; */
-      order: 2;
+      grid-area: right;
+      /* order: 2; */
     }
 
     .item5 {
-      /* grid-area: footer; */
-      order: 4;
+      grid-area: footer;
+      /* order: 4; */
     }
+
+    /* .item6 { 
+      grid-area: footer;
+
+    }
+
+    .item7 {
+      grid-area: footer;
+    }
+
+    .item8 {
+      grid-area: footer;
+    }
+
+    .item9 {
+      grid-area: footer;
+    }
+
+    .item10 {
+      grid-area: footer;
+    /* } */
   </style>
 </head>
 
@@ -67,12 +86,26 @@
   <p>Let the first grid item start at column-line 1, and let it span 2 columns:</p>
 
   <div class="container">
-    <div class="item1">1</div>
-    <div class="item2">2</div>
-    <div class="item3">3</div>
-    <div class="item4">4</div>
-    <div class="item5">5</div>
-  </div>
+    <div class="item1"><img src="https://tse4.mm.bing.net/th/id/OIP.nqCet5Q2LlZzMF_DM0DzEwHaEK?pid=Api&P=0&h=180" </div>
+      <div class="item2"><img src="https://tse3.mm.bing.net/th/id/OIP.AlcR-CNeY6sDZRuRtA30NgHaFb?pid=Api&P=0&h=180"
+          </div>
+        <div class="item3"><img src="https://tse4.mm.bing.net/th/id/OIP.y_l2lm510yM5dUbkMuls0QHaE7?pid=Api&P=0&h=180"
+            </div>
+          <div class="item4"><img src="https://tse4.mm.bing.net/th/id/OIP.NizrSeCGmt1r77RKEN6MXwHaEZ?pid=Api&P=0&h=180"
+              </div>
+            <div class="item5"><img
+                src="https://tse3.mm.bing.net/th/id/OIP.AjhZNLyVCF8cGfOTAKicUAHaE8?pid=Api&P=0&h=180" </div>
+              <div class="item6"><img
+                  src="https://tse3.mm.bing.net/th/id/OIP.lx1gL_jD6maABq_Z-IlwRQAAAA?pid=Api&P=0&h=180" </div>
+                <div class="item7"><img
+                    src="https://tse2.mm.bing.net/th/id/OIP.hp1LDOarXtOgl6E6vcPqGAHaEK?pid=Api&P=0&h=180" </div>
+                  <div class="item8"><img
+                      src="https://tse3.mm.bing.net/th/id/OIP.aUqf65MSOdYYaqpDJA1VQAHaE5?pid=Api&P=0&h=180" </div>
+                    <div class="item9"><img
+                        src="https://tse3.mm.bing.net/th/id/OIP.s_3Y1pYN23Ss7BI8gGYigAHaFj?pid=Api&P=0&h=180" </div>
+                      <div class="item10"><img
+                          src="https://tse1.mm.bing.net/th/id/OIP.p9nl10I0_5E1JKvZ4O9yAwHaEK?pid=Api&P=0&h=180" </div>
+                      </div>
 
 </body>
 
