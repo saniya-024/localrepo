@@ -13,7 +13,7 @@
 
         .container {
             background-color: aqua;
-           
+
             display: flex;
             gap: 10px;
             /* height: 700px; */
@@ -25,10 +25,10 @@
 
         .aside {
             /* height: 700px; */
-            width: 250px; 
+            width: 250px;
             background-color: pink;
             padding-right: 20px;
-           
+
 
         }
 
@@ -60,31 +60,57 @@
                 'item1 item4 item5'
                 'item6 item7 item8'
                 'item9 item10 item8';
-            grid-template-rows: 350px 350px 350px;
-            grid-template-columns: 350px 350px 350px;
-            
-            gap:5px;
-        
-            
+            grid-template-rows: 150px 150px 150px;
+            grid-template-columns: 280px 280px 280px;
+
+
+            /* gap:5px; */
+
+
             /* align-content: space-around; */
             /* background-size: cover; */
 
         }
-        .items div img{
 
-height: 100%;
-width: 100%;
-object-fit: cover;
+        .items div img {
+
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
 
         .item1 {
             grid-area: item1;
-           
+
+
+            position: relative;
+
+
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            color: white;
+            font-size: 10px;
+
 
         }
 
         .item2 {
             grid-area: item2;
+        }
+
+        .text2 {
+            position: absolute;
+            color: white;
+            top: 50%;
+            right: 35%;
+
+
+
+
         }
 
         .item3 {
@@ -151,10 +177,17 @@ object-fit: cover;
 
 
             <div class="item1"><img
-                    src="https://tse4.mm.bing.net/th/id/OIP.nqCet5Q2LlZzMF_DM0DzEwHaEK?pid=Api&P=0&h=180" +>
+                    src="https://tse4.mm.bing.net/th/id/OIP.nqCet5Q2LlZzMF_DM0DzEwHaEK?pid=Api&P=0&h=180">
+
+                <div class="text">
+                    <h4>THIS IS DISPLAYED</h4>
+                </div>
             </div>
-            <div class="item2"><img
+            <div class=" item2"><img
                     src="https://tse3.mm.bing.net/th/id/OIP.AlcR-CNeY6sDZRuRtA30NgHaFb?pid=Api&P=0&h=180">
+                <div class="text2">
+                    <h4>PHOTOGRAPH</h4>
+                </div>
             </div>
             <div class="item3"><img
                     src="https://tse4.mm.bing.net/th/id/OIP.y_l2lm510yM5dUbkMuls0QHaE7?pid=Api&P=0&h=180">
