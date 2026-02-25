@@ -13,7 +13,9 @@
 
         .container {
             background-color: aqua;
-            padding-top: 10px;
+           
+            display: flex;
+            gap: 10px;
             /* height: 700px; */
 
 
@@ -22,11 +24,11 @@
         }
 
         .aside {
-            height: 700px;
-            width: 250px;
+            /* height: 700px; */
+            width: 250px; 
             background-color: pink;
             padding-right: 20px;
-            margin-left: 20px;
+           
 
         }
 
@@ -39,7 +41,7 @@
         .list {
             background-color: beige;
             margin-top: 50px;
-            padding-left: 20px;
+            /* padding-left: 20px; */
             margin-left: 20px;
             padding-top: 20px;
         }
@@ -58,19 +60,26 @@
                 'item1 item4 item5'
                 'item6 item7 item8'
                 'item9 item10 item8';
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            justify-content: center;
-            height: 100%;
-            width: 100%;
-            /* align-content: space-around;s */
+            grid-template-rows: 350px 350px 350px;
+            grid-template-columns: 350px 350px 350px;
+            
+            gap:5px;
+        
+            
+            /* align-content: space-around; */
             /* background-size: cover; */
 
+        }
+        .items div img{
+
+height: 100%;
+width: 100%;
+object-fit: cover;
         }
 
         .item1 {
             grid-area: item1;
-            justify-content: right;
+           
 
         }
 
@@ -128,8 +137,12 @@
                 </ul>
             </div>
         </div>
-    </section>
-    <section class="section2">
+
+
+
+
+
+        <!-- <section class="section2"> -->
 
 
 
@@ -138,7 +151,7 @@
 
 
             <div class="item1"><img
-                    src="https://tse4.mm.bing.net/th/id/OIP.nqCet5Q2LlZzMF_DM0DzEwHaEK?pid=Api&P=0&h=180">
+                    src="https://tse4.mm.bing.net/th/id/OIP.nqCet5Q2LlZzMF_DM0DzEwHaEK?pid=Api&P=0&h=180" +>
             </div>
             <div class="item2"><img
                     src="https://tse3.mm.bing.net/th/id/OIP.AlcR-CNeY6sDZRuRtA30NgHaFb?pid=Api&P=0&h=180">
@@ -168,6 +181,9 @@
                     src="https://tse1.mm.bing.net/th/id/OIP.p9nl10I0_5E1JKvZ4O9yAwHaEK?pid=Api&P=0&h=180">
             </div>
         </div>
+
+
+
 
 
 
