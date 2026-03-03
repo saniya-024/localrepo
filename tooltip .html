@@ -3,25 +3,34 @@
 
 <head>
     <style>
-        p {
-            display: none;
-            background-color: pink;
-            padding: 20px;
+        p.test1 {
+            width: 200px;
+            border: 1px solid #000000;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
         }
 
-        div:hover p {
-            display: block;
+        p.test2 {
+            width: 200px;
+            border: 1px solid #000000;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     </style>
 </head>
 
 <body>
 
-    <h2>Use :hover to Show Tooltip</h2>
+    <h1>The text-overflow Property</h1>
+    <p>The following two paragraphs contains a long text that will not fit in the box.</p>
 
-    <div>Hover over this div element to show the p element
-        <p>Tada! Here I am!</p>
-    </div>
+    <h2>text-overflow: clip:</h2>
+    <p class="test1">This is some long text that will not fit in the box</p>
+
+    <h2>text-overflow: ellipsis:</h2>
+    <p class="test2">This is some long text that will not fit in the box</p>
 
 </body>
 
