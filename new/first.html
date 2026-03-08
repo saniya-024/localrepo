@@ -1,11 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Dhabba</title>
+    <style>
+        #navList {
+            /* margin-left: 15px; */
+            /* margin-right: 15px; */
+            width: 100%;
+            padding: 15px;
+            list-style: none;
+            font-size: 2.5rem;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .main {}
+
+        .container {
+        
+            background-image: linear-gradient(90.6deg, rgba(251, 229, 210, 1) 18.9%, rgba(217, 240, 235, 1) 39.5%, rgba(208, 239, 238, 1) 51.1%, rgba(219, 242, 240, 1) 62.1%, rgba(233, 240, 217, 1) 84.1%);
+
+        }
+
+        .navContainer {
+            width: 100vw;
+            /* background-color: rgba(35, 35, 168, 0.652); */
+
+            min-height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* position: relative; */
+            /* background-color: #0093E9; */
+            /* background-image: linear-gradient(160deg); */
+
+            /* background-image: linear-gradient(122.9deg, rgba(147, 223, 74, 1) 12.1%, rgba(167, 237, 104, 1) 37.6%, rgba(217, 238, 150, 1) 64.4%); */
+            background-image: linear-gradient(107.1deg, rgba(111, 63, 255, 1) 11.1%, rgba(21, 192, 229, 1) 54.8%, rgba(255, 229, 189, 1) 82.9%);
+
+
+        }
+
+        nav {
+            width: 100%;
+            overflow-x: none;
+        }
+
+        #navLogo {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #navItems {
+            display: flex;
+            gap: 40px;
+        }
+
+        .footerBox {
+            background-image: linear-gradient(107.1deg, rgba(111, 63, 255, 1) 11.1%, rgba(21, 192, 229, 1) 54.8%, rgba(255, 229, 189, 1) 82.9%);
+            /* color:azure; */
+            /* width:100%; */
+            text-align: center;
+            min-height: 40px;
+            
+
+        }
+
+        .footerBox p {
+            color: azure;
+            font-size: 2rem;
+
+
+        }
+
+        .contentBox {
+
+
+
+            background-color: white;
+            display: flex;
+            padding-left: 400px;
+            padding-top: 15px;
+            
+
+
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 19px;
+        }
+
+        .leftBox {
+            list-style-type: none;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+
+    <header>
+        <div class="navContainer">
+            <nav>
+                <ul id="navList">
+                    <li>
+                        <p id="navLogo">CodeHelp da Dhabba</p>
+                    </li>
+                    <li>
+                        <div id="navItems">
+                            <a href="#">Home</a>
+                            <a href="#">Contact</a>
+                            <a href="#">About</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <div class="container">
+        <section class="contentBox">
+            <div class="item">
+                <div class="leftBox">
+                    <h2>Gulab Jamun</h2>
+                    <div>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div>
+                        <h2>Receipe</h2>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, excepturi?
+                            </li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightBox">
+                <img
+                    src="https://tse1.mm.bing.net/th/id/OIP.5Oid-YGFOC3sioeWxIsPmQHaEJ?pid=Api&rs=1&c=1&qlt=95&w=195&h=109">
+            </div>
+
+
+
+        </section>
+        <br>
+        <br>
+
+
+        <section class="contentBox">
+            <div class="item">
+                <div class="leftBox">
+                    <h2>Burfi</h2>
+                    <div>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div>
+                        <h2>Receipe</h2>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, excepturi?
+                            </li>
+
+
+
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ol>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightBox">
+                <img src="https://tse1.mm.bing.net/th/id/OIP._DvnwgPjRMwFYqCwTHtFVAHaE8?pid=Api&rs=1&c=1&qlt=95&w=180&h=120" width="230px">
+            </div>
+
+
+
+        </section>
+    </div>
+    <br>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footerBox">
+            <p>
+                Copyright CodeHelp da Dhaaba Pvt Ltd 2023 All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+    </div>
+    </div>
+
 </body>
+
 </html>
