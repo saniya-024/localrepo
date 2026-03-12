@@ -1,0 +1,327 @@
+/* :root{ 
+    --main-color:#fff;
+/* } */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-left: 10px;
+    /* margin-right: 100px; */
+    border: 1px solid black;
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+    padding-left: 400px;
+    color: #4A5565
+        /* align-items:center; */
+        /* justify-content: center; */
+}
+
+.hed {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.text {
+    padding-top: 20px;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.imagee {
+    padding-left: 500px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.background {
+
+    width: 100%;
+    height: 80vh;
+    background-image: url("/Hero.png");
+    background-size: cover;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.rel {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.rel h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.rel p {
+    color: white;
+}
+
+.butt {
+
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.button {
+    background-color: white;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+.para {
+    padding-left: 600px;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.picture {
+    padding-left: 100px;
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+    gap: 20px;
+    /* background-image: url("/Container\ \(2\).png"); */
+
+}
+
+
+.one {
+    position: relative;
+    /* height:300px; */
+}
+
+.two {
+    position: absolute;
+    top: 240px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.twoo {
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.twooo {
+    position: absolute;
+    top: 240px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.tw {
+
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.thre {
+    position: absolute;
+    top: 240px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.three {
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.for {
+    position: absolute;
+    top: 240px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.four {
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.hero {
+
+    justify-content: space-between;
+    display: flex;
+    padding-left: 90px;
+
+
+
+
+
+}
+.view{
+    padding-right: 80px;
+}
+
+
+
+
+.car {
+    display: flex;
+    gap: 40px;
+    padding-left: 90px;
+    padding-top:30px;
+
+}
+
+.shoes p {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.shoes img {
+
+    border-radius: 20px;
+
+}
+
+.star {
+    display: flex;
+    gap: 10px;
+
+}
+
+.star img {
+    height: 25px;
+}
+
+.star span {
+
+    /* padding-top:1px; */
+    color: grey;
+    font-weight: 500;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.dollar {
+    display: flex;
+    gap: 70px;
+}
+
+.Detail {
+    /* margin-left: 150px; */
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    margin-top: 10px;
+
+
+}
+.sunny{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:80px;
+    background:#f9f9f9;
+}
+.sunny-text{
+    width:50%;
+}
+.sunny-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sunny-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height:1.6;
+}
+.sunny-text button {
+    padding:12px 25px;
+    background-color: black;
+    color:white;
+    
+    
+    border-radius:15px;
+    cursor: pointer;
+
+}
+.feature{
+    padding:80px;
+    text-align: center;
+    background: #f8f8f8;
+}
+.feature h2{
+    font-size: 35px;
+    margin-bottom:40px;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    /* flex-wrap: wrap; */
+}
+.feature-card{
+    /* width:20%; */
+    background: #f8f8f8;
+    padding-left:80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+
+}
+.feature-card img{
+    /* font-size: 35px; */
+    /* margin-bottom: 15px; */
+
+}
+.feature-card h3{
+    /* margin-bottom: 10px; */
+}
+.feature-card p{
+    font-size: 14px;
+    color:#555;
+}
+
+
+/*  */
+@media (max-width:700px) {
+    .items {
+        position: absolute;
+
+    }
+}
