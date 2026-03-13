@@ -316,7 +316,77 @@ h4 {
     font-size: 14px;
     color:#555;
 }
+      .footer{
+background:#111;
+color:white;
+padding:60px 80px;
+margin-top:60px;
+      }
 
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:40px;
+}
+
+.footer-about{
+width:21%;
+}
+
+.footer-links,
+.footer-support{
+width:180px;
+}
+
+.footer-links p,
+.footer-support p{
+margin:8px 0;
+cursor:pointer;
+}
+
+.footer-newsletter{
+width:250px;
+}
+
+/* .footer-newsletter input{ 
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+/* } */
+
+.footer-newsletter button{
+padding:10px 20px;
+border:none;
+background-color: orange;
+color:white;
+cursor:pointer;
+border-radius:5px;
+margin-left:180px;
+/* padding-right: 20px; */
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:40px;
+border-top:1px solid #444;
+padding-top:20px;
+font-size:14px;
+}
+      @media (max-width: 740px) {
+        .head {
+          flex-direction: column;
+        }
+        h1 {
+          font-size: 30px;
+        }
+
+        .product-container {
+          display: block;
+        }
+      }
 
 /*  */
 @media (max-width:700px) {
