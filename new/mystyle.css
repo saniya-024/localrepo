@@ -105,6 +105,7 @@
         background: #f8f8f8;
         padding: 20px;
         border-radius: 10px;
+        padding-top: 40px;
       }
       .img{
         display: flex;
@@ -112,10 +113,11 @@
       }
 
       .filters h4{
-        /* margin-bottom: 80px; */
+        margin-bottom:24px;
         font-weight:700 ;
-        padding-bottom: 30px;
-        margin-top:2px;
+        padding-bottom: 2px;
+        
+        margin-top:-27px;
       }
 
       /* .filters h4 { 
@@ -125,7 +127,9 @@
 
       .filters label {
         display: block;
-        margin-bottom: 8px;
+        margin-bottom: px;
+        /* padding-bottom: 20px; */
+        /* padding-top:2px; */
         margin-top:2px;
       }
       h5{
@@ -138,27 +142,37 @@
         /* margin-top: 80px; */
       }
       h4{
-        margin-top: 20px;
+        padding-top:30px;
+      }
+      .sizing{
+        padding-top: 70px;
       }
       .size{
         width:100%;
+        margin-top: -22px;
+
       }
 
 
       .size button {
-        margin: 5px;
+        
+        /* margin: 5px; */
+        margin-top:20px;
 
         /* padding: 5px 5px; */
         border: 1px solid black;
         background: white;
         cursor: pointer;
         border-radius:10px;
-        width:30px;
+        width:40px;
+      }
+      .col{
+        padding-top: 80px;
       }
 
       .color span {
         display: inline-block;
-        width: 20px;
+        width: 30px;
         height: 30px;
         
         border-radius: 50%;
@@ -187,12 +201,14 @@ background:blue;
 
       .clear {
         margin-top: 20px;
-        width: 100px;
+        width: 170px;
         padding: 10px;
         background:white;
         color: var(--primary-color);
         border: 1px solid black;
         cursor: pointer;
+        font-weight: 600;
+        border-radius: 15px;
       }
 
       .products-grid {
