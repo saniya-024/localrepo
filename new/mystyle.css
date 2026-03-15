@@ -423,7 +423,7 @@ background:blue;
       }
 
       @media (max-width: 768px) {
-        .shop-filter {
+        .pro-container {
           flex-direction: column;
           gap: 10px;
         }
