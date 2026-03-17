@@ -72,7 +72,12 @@ align-items: center;
 justify-content: center;
 
       }
-      .mess{
+      .map h5{
+        color:grey;
+      }
+
+
+    .mess{
         /* padding-left: 70px; */
       }
       .main{
@@ -109,17 +114,36 @@ justify-content: center;
         font-weight: 600;
         padding-top: 35px;
       }
+      #Email{
+        width:520px;
+        margin-top: 10px;
+      }
+      #Phone{
+        width:520px;
+        margin-top: 10px;
+
+      }
+      #Subject{
+        width:520px;
+        margin-top: 10px;
+      }
+      #Message{
+        width:520px;
+        height:250px;
+        padding-bottom: 200px;
+      }
       .name4{
-        background-color: rgba(128, 128, 128, 0.219);
-        width:100%;
-        border:1px solid black;
+        background-color: rgba(128, 128, 128, 0);
+        /* width:100%; */
+        /* border:0.5px solid black; */
         border-radius: 5px;
+        /* width:520px; */
       }
       .name3{
-        width:800 px;
-        height:200px;
+        /* width:800 px; */
+        /* height:200px; */
         border-radius: 5px;
-        border:1px solid black;
+        /* border:1px solid black; */
         background-color:rgba(128, 128, 128, 0.214);
       }
       .send{
@@ -134,13 +158,15 @@ justify-content: center;
         padding-bottom: 10px;
       }
       .question{
-        padding-top:70px ;
+        padding-top:60px ;
         /* padding-left: 540px; */
+        margin-top: 50px;
         height:500px;
         width:100%;
         background-color: aliceblue;
       }
       .que{
+        /* margin-top: 20px; */
         padding-left: 400px;
         padding-bottom: 60px;
 
@@ -217,5 +243,6 @@ border-top:1px solid #444;
 padding-top:20px;
 font-size:14px;
 }
+
 
 
